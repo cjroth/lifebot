@@ -1,0 +1,21 @@
+{
+    "dependencies": {
+        "async": "^2.1.4",
+        "cron": "^1.2.1",
+        "dotenv": "^4.0.0",
+        "edit-google-spreadsheet": "https://github.com/cjroth/node-edit-google-spreadsheet.git",
+        "moment": "^2.17.1",
+        "moment-range": "^3.0.0",
+        "moment-timezone": "^0.5.11",
+        "regenerate": "^1.3.2",
+        "socket.io-client": "^1.7.2",
+        "twilio": "^2.11.1"
+    },
+    "bin": "./shell.js",
+    "name": "lifebot",
+    "version": "1.0.0",
+    "main": "server.js",
+    "repository": "git@github.com:cjroth/lifebot.git",
+    "author": "Chris Roth <chris@cjroth.com>",
+    "license": "Not Licensed!"
+}

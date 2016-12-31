@@ -1,0 +1,38 @@
+{
+    "😴": {
+        "columnName": "Asleep",
+        "mode": "single"
+    },
+    "🌞": {
+        "columnName": "Awake",
+        "mode": "single"
+    },
+    "💤": {
+        "columnName": "Sleep",
+        "mode": "single"
+    },
+    "🚶": {
+        "columnName": "Steps",
+        "mode": "single",
+        "recordTime": "no"
+    },
+    "❤️": {
+        "columnName": "Resting Heart Rate",
+        "mode": "single",
+        "recordTime": "no"
+    },
+    "☕️": {
+        "columnName": "Caffeine"
+    },
+    "🍽": {
+        "columnName": "Food"
+    },
+    "🍷": {
+        "columnName": "Alcohol",
+        "entry": "wine"
+    },
+    "🍺": {
+        "columnName": "Alcohol",
+        "entry": "beer"
+    }
+}
