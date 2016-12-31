@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "edit-google-spreadsheet": "^0.2.21",
+    "moment": "^2.17.1",
+    "socket.io-client": "^1.7.2",
+    "twilio": "^2.11.1"
+  }
+}
