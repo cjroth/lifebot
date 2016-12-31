@@ -8,3 +8,4 @@
 
 ## Notes
 - Twilio <-> https://gomix.com/#!/project/happy-dolphin (middleman.js) <-> server.js
+- Emoji Search: http://emoji.muan.co/
