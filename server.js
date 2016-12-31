@@ -1,4 +1,4 @@
-const moment = require('moment')
+const moment = require('moment-timezone')
 const socket = require('socket.io-client')
 const Spreadsheet = require('edit-google-spreadsheet')
 
@@ -82,7 +82,7 @@ let stack = [
             text = []
         }
         let columnNumber = action.labels[action.columnName]
-        text.push(moment().format('HH:mm'))
+        text.push(moment().tz('America/New_York').format('HH:mm'))
         let todayRowNumber = action.data.indexOf(action.today) + 3
         let edit = {}
         edit[todayRowNumber] = {}
@@ -174,7 +174,7 @@ function parseRows(rows) {
 
 function getToday(data) {
     let today = data.filter(row => {
-        return row.Date === moment().format('YYYY-MM-DD')
+        return row.Date === moment().tz('America/New_York').format('YYYY-MM-DD')
     })
     if (today.length) {
         return today[0]
@@ -191,7 +191,7 @@ function createToday(spreadsheet, done) {
         }, (error, metadata) => {
             if (error) throw error
             let data = {}
-            data[metadata.rowCount] = [[moment().format('YYYY-MM-DD')]]
+            data[metadata.rowCount] = [[moment().tz('America/New_York').format('YYYY-MM-DD')]]
             spreadsheet.add(data)
             spreadsheet.send(error => {
                 if (error) throw error

@@ -238,19 +238,6 @@ ecdsa-sig-formatter@1.0.9, ecdsa-sig-formatter@^1.0.0:
     request "^2.51.0"
     xml2js "^0.4.15"
 
-"edit-google-spreadsheet@https://github.com/jpillora/node-edit-google-spreadsheet.git":
-  version "0.2.21"
-  resolved "https://github.com/jpillora/node-edit-google-spreadsheet.git#0340ece46ded64d0ed55cdc213dd1257754a7444"
-  dependencies:
-    async "^1.5.0"
-    colors "^1.0.3"
-    google-auth-library "^0.9.6"
-    google-oauth-jwt "~0.1.4"
-    googleclientlogin "~0.2.8"
-    lodash "^3.10.1"
-    request "^2.51.0"
-    xml2js "^0.4.15"
-
 engine.io-client@1.8.2:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/engine.io-client/-/engine.io-client-1.8.2.tgz#c38767547f2a7d184f5752f6f0ad501006703766"
@@ -577,7 +564,13 @@ minimist@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
-moment@^2.17.1:
+moment-timezone@^0.5.11:
+  version "0.5.11"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.11.tgz#9b76c03d8ef514c7e4249a7bbce649eed39ef29f"
+  dependencies:
+    moment ">= 2.6.0"
+
+"moment@>= 2.6.0", moment@^2.17.1:
   version "2.17.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"
 

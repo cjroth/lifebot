@@ -2,6 +2,7 @@
   "dependencies": {
     "edit-google-spreadsheet": "https://github.com/cjroth/node-edit-google-spreadsheet.git",
     "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
     "socket.io-client": "^1.7.2",
     "twilio": "^2.11.1"
   }
