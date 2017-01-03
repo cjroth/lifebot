@@ -2,8 +2,16 @@
   "dependencies": {
     "edit-google-spreadsheet": "https://github.com/cjroth/node-edit-google-spreadsheet.git",
     "moment": "^2.17.1",
-    "moment-timezone": "^0.5.11",
-    "socket.io-client": "^1.7.2",
-    "twilio": "^2.11.1"
+    "moment-timezone": "^0.5.11"
+  },
+  "resolutions": {
+    "lodash": "4.17.3",
+    "jsesc": "1.3.0",
+    "repeating": "2.0.1",
+    "minimist": "1.2.0",
+    "async": "1.4.2",
+    "base64url": "0.0.6",
+    "readable-stream": "2.0.6",
+    "assert-plus": "1.0.0"
   }
 }
